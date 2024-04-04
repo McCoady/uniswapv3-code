@@ -89,7 +89,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -154,7 +154,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -219,7 +219,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -283,7 +283,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
 
@@ -357,7 +357,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
 
@@ -436,7 +436,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -515,7 +515,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
         LiquidityRange memory liq = liquidity[0];
@@ -610,7 +610,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
         LiquidityRange memory liq = liquidity[0];
@@ -684,7 +684,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
         LiquidityRange memory liq = liquidity[0];
@@ -744,7 +744,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
         LiquidityRange memory liq = liquidity[0];
@@ -850,7 +850,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: false,
                 transferInSwapCallback: true,
-                mintLiqudity: false
+                mintLiquidity: false
             })
         );
 
@@ -874,7 +874,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
 
@@ -978,7 +978,7 @@ contract UniswapV3PoolTest is Test, UniswapV3PoolUtils {
             params.currentPrice
         );
 
-        if (params.mintLiqudity) {
+        if (params.mintLiquidity) {
             weth.approve(address(this), params.balances[0]);
             usdc.approve(address(this), params.balances[1]);
 

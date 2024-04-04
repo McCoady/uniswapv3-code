@@ -9,7 +9,7 @@ library Tick {
         bool initialized;
         // total liquidity at tick
         uint128 liquidityGross;
-        // amount of liqudiity added or subtracted when tick is crossed
+        // amount of liquidity added or subtracted when tick is crossed
         int128 liquidityNet;
         // fee growth on the other side of this tick (relative to the current tick)
         uint256 feeGrowthOutside0X128;

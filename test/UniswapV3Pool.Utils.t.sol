@@ -18,7 +18,7 @@ abstract contract UniswapV3PoolUtils is Test, TestUtils {
         LiquidityRange[] liquidity;
         bool transferInMintCallback;
         bool transferInSwapCallback;
-        bool mintLiqudity;
+        bool mintLiquidity;
     }
 
     function liquidityRange(

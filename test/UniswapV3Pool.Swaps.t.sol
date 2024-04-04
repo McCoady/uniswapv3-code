@@ -48,7 +48,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -135,7 +135,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     liquidity: liquidityRanges(range, range),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -233,7 +233,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -372,7 +372,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -505,7 +505,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -586,7 +586,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -673,7 +673,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     liquidity: liquidityRanges(range, range),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -771,7 +771,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -910,7 +910,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -1043,7 +1043,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -1114,7 +1114,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
             liquidity: liquidity,
             transferInMintCallback: true,
             transferInSwapCallback: true,
-            mintLiqudity: true
+            mintLiquidity: true
         });
         setupPool(params);
 
@@ -1135,7 +1135,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
             liquidity: liquidity,
             transferInMintCallback: true,
             transferInSwapCallback: true,
-            mintLiqudity: true
+            mintLiquidity: true
         });
         setupPool(params);
 
@@ -1161,7 +1161,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                     ),
                     transferInMintCallback: true,
                     transferInSwapCallback: true,
-                    mintLiqudity: true
+                    mintLiquidity: true
                 })
             );
 
@@ -1254,7 +1254,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
             liquidity: liquidity,
             transferInMintCallback: true,
             transferInSwapCallback: false,
-            mintLiqudity: true
+            mintLiquidity: true
         });
         setupPool(params);
 
@@ -1272,7 +1272,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
 
@@ -1346,7 +1346,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
                 ),
                 transferInMintCallback: true,
                 transferInSwapCallback: true,
-                mintLiqudity: true
+                mintLiquidity: true
             })
         );
 
@@ -1516,7 +1516,7 @@ contract UniswapV3PoolSwapsTest is Test, UniswapV3PoolUtils {
             params.currentPrice
         );
 
-        if (params.mintLiqudity) {
+        if (params.mintLiquidity) {
             weth.approve(address(this), params.balances[0]);
             usdc.approve(address(this), params.balances[1]);
 
